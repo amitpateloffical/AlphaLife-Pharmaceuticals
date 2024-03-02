@@ -82,12 +82,12 @@ function BusinessAreas() {
                         <div className="col-md-9">
                             <div className="container">
                                 <div className="heading-business m-4" data-aos="fade-left">
-                                    We provide comprehensive range of specialty branded generic products targeting broad spectrum of chronic and acute therapies. We clearly understand our customers’ needs and use cutting-edge technology to present innovative solutions.
+                                Welcome to the forefront of pharmaceutical innovation. We harness groundbreaking science, cutting-edge technology, and unparalleled expertise to create transformative treatments that change lives. With a commitment to excellence in research, development, and manufacturing, we're setting new standards in healthcare. Explore our diverse portfolio and discover how we're revolutionizing patient care and shaping the future of medicine
                                 </div>
                             </div>
                             <div className="paratwo p-5 mb-4">
                                 <div className="overview-part2 p-1" data-aos="fade-left">
-                                    We carefully identify gaps in our markets and commit ourselves to get the products to market places ahead of the competition giving huge competitive advantage of 1st to market. Our products have the hallmark of technology-based differentiation and cover the full range of dosage forms, including tablets, capsules, injectables, inhalers, ointments, creams and liquids.
+                                Our cutting-edge pharmacological solutions and expertise are dedicated to advancing human health and fostering a brighter tomorrow. From drug discovery to clinical development, our team is committed to innovative approaches and industry-leading practices to bring breakthrough treatments to the world. With a comprehensive portfolio covering a wide range of therapeutic areas, we're your strategic partner for success in the pharmaceutical industry.
                                 </div>
                             </div>
                         </div>
