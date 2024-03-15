@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import "./Home.css";
+import { AOS } from 'aos';
+import "aos/dist/aos.css";
+
 const Manufacturing = () => {
+
     return (
         <div className=''>
             <section className="innerBanner">
@@ -44,15 +48,13 @@ const Manufacturing = () => {
               </div> */}
                             <h1 className="Manu-about">From Science to Solution: Our Manufacturing Expertise</h1>
                             <p className="Manu-para">" Our advanced manufacturing capabilities are the foundation for bringing innovative healthcare solutions to life. We leverage cutting-edge technologies and a skilled workforce to ensure the efficient and reliable production of life-changing medications for patients in need."</p>
-
-
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div className=" p-5">
-                <div style={{ background: "#AFEEEE", paddingLeft: "20px", paddingTop: "30px", paddingBottom: "30px", borderLeft: "4px solid green" }}>
+
+            <div className=" p-5" >
+                <div style={{ background: "#AFEEEE", paddingLeft: "20px", paddingTop: "30px", paddingBottom: "30px", borderLeft: "4px solid green" }} data-aos="zoom-out-down" >
                     <div className="  wow fadeIn p-2" data-wow-delay="0.5s" style={{ fontSize: "19px", fontWeight: "500" }}>
                         Our team thrives in an environment conducive to excellence and innovation, which is critical to advancing complex and challenging first-time combination products. The R&D team actively engages in projects from concept to Phase IV studies, as well as monitoring market acceptance and post-launch status for comprehensive insights.
                     </div>

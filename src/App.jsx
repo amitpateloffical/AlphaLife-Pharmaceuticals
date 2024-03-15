@@ -13,6 +13,7 @@ import UsaGenerics from "./pages/Business Areas/UsaGenerics";
 import Manufacturing from "./pages/Manufacturing";
 import AfricaInstitution from "./pages/Business Areas/AfricaInstitution";
 import Footer from "./components/Footer";
+// import tailwind from "tailwind";
 
 function App() {
   useEffect(() => {

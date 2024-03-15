@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
+import { FaLongArrowAltRight } from "react-icons/fa";
 function Home() {
 
   useEffect(() => {
@@ -14,51 +15,56 @@ function Home() {
   }, []);
   return (
     <>
-      <div className="slider-container ">
+      <div className="slider-container h-10 ">
         <MySlider />
       </div>
-      <div className="container-fluid p-5 hero-header mb-5 mt-4">
-        <div >
-          <div className=" g-5 align-items-center slider-img">
-            <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
-              <div className="">
-                <img width={"600px"} className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQlUcAUHROtbgBJyd95EWThgVHDuxvHNCkA&usqp=CAU" />
-              </div>
+
+      <div className="container-fluid p-5 mb-5 mt-4" style={{ background: "#ebebe0" }}>
+        <div className=" business-area g-5 align-items-center slider-img" >
+          <div className="wow fadeIn" data-wow-delay="0.1s" data-aos="zoom-in">
+            <img className=" img-fluid businessArea-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQlUcAUHROtbgBJyd95EWThgVHDuxvHNCkA&usqp=CAU" />
+          </div>
+          <div
+            data-aos="zoom-in"
+            className="col-lg-6 wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <div className="">mayank</div>
+            <div className="home-head rounded-pill px-3 mb-3">
+              Business Area
             </div>
-            <div
-              data-aos="fade-left"
-              className="col-lg-6 wow fadeIn"
-              data-wow-delay="0.5s"
-            >
-              <div className="home-head rounded-pill  px-3 mb-3">
-                Business Area
-              </div>
-              <h1 className="heading-about">Pharmacological Expertise at Your Service</h1>
-              <p className="home-para">"Our cutting-edge pharmacological solutions and expertise are dedicated to advancing human health and fostering a brighter tomorrow. From drug discovery to clinical development, our team is committed to innovative approaches and industry-leading practices to bring breakthrough treatments to the world. With a comprehensive portfolio covering a wide range of therapeutic areas, we're your strategic partner for success in the pharmaceutical industry."</p>
-            </div>
+            <h1 className="heading-about">Pharmacological Expertise at Your Service</h1>
+            <p className="home-para">"Our cutting-edge pharmacological solutions and expertise are dedicated to advancing human health and fostering a brighter tomorrow. From drug discovery to clinical development, our team is committed to innovative approaches and industry-leading practices to bring breakthrough treatments to the world. With a comprehensive portfolio covering a wide range of therapeutic areas, we're your strategic partner for success in the pharmaceutical industry."</p>
+            <button style={{ width: "200px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", gap: "15px", border: "none", borderRadius: "50px", color: "blueviolet" }}>
+              <span> Discover more</span>
+              <FaLongArrowAltRight />
+            </button>
           </div>
         </div>
+
       </div>
 
 
-      <div className="container-fluid p-5  hero-header mb-5 mt-4">
+      <div className="container-fluid p-5  hero-header mb-5 mt-4" style={{ background: "#ebebe0" }}>
         <div className="">
-          <div className="slider-img g-5 align-items-center">
+          <div className="slider-img g-5 align-items-center business-area">
             <div
-              data-aos="fade-left"
+              data-aos="zoom-in"
               className="col-lg-6 wow fadeIn"
-              data-wow-delay="0.5s"
-            >
+              data-wow-delay="0.5s">
               <div className="home-head rounded-pill px-3 mb-3">
                 Manufacturing
               </div>
               <h1 className="heading-about">Our Manufacturing Expertise</h1>
               <p className="home-para">"Our advanced manufacturing capabilities are the foundation for bringing innovative healthcare solutions to life. We leverage cutting-edge technologies and a skilled workforce to ensure the efficient and reliable production of life-changing medications for patients in need.."</p>
-
+              <button style={{ width: "200px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", gap: "15px", border: "none", borderRadius: "50px", color: "blueviolet" }}>
+                <span> Discover more</span>
+                <FaLongArrowAltRight />
+              </button>
             </div>
-            <div className="wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
+            <div className="wow fadeIn" data-wow-delay="0.1s" data-aos="zoom-in">
 
-              <img width={"600px"} className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1jHJa-PhwAyPR3Ff0DWJZABQg3WCx6hznSw&usqp=CAU" />
+              <img width={"600px"} className="img-fluid manufacturing-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1jHJa-PhwAyPR3Ff0DWJZABQg3WCx6hznSw&usqp=CAU" />
 
             </div>
           </div>
@@ -66,16 +72,16 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5 hero-header mb-5 mt-4">
+      <div className="container-fluid p-5 hero-header mb-5 mt-4" style={{ background: "#ebebe0" }}>
         <div >
-          <div className=" g-5 align-items-center slider-img">
-            <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
+          <div className="business-area g-5 align-items-center slider-img">
+            <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="zoom-in">
               <div className="">
-                <img width={"600px"} className="img-fluid"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaLY6hgMMjvR9CBjXVJI859IAULuXlaCBMg&usqp=CAU" />
+                <img width={"600px"} className="img-fluid researchDevelopment-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaLY6hgMMjvR9CBjXVJI859IAULuXlaCBMg&usqp=CAU" />
               </div>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="zoom-in"
               className="col-lg-6 wow fadeIn"
               data-wow-delay="0.5s"
             >
@@ -88,18 +94,21 @@ function Home() {
                 Our state-of-the-art laboratories and dedicated team of scientists and researchers
                 work tirelessly to discover and develop
                 groundbreaking medicines that address unmet medical needs."</p>
-
+              <button style={{ width: "200px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", gap: "15px", border: "none", borderRadius: "50px", color: "blueviolet" }}>
+                <span> Discover more</span>
+                <FaLongArrowAltRight />
+              </button>
             </div>
           </div>
         </div>
       </div>
 
 
-      <div className="container-fluid p-5  hero-header mb-5 mt-4">
+      <div className="container-fluid p-5  hero-header mb-5 mt-4" style={{ background: "#ebebe0" }}>
         <div className="">
-          <div className="slider-img g-5 align-items-center">
+          <div className="business-area slider-img g-5 align-items-center">
             <div
-              data-aos="fade-left"
+              data-aos="zoom-in"
               className="col-lg-6 wow fadeIn"
               data-wow-delay="0.5s"
             >
@@ -108,9 +117,12 @@ function Home() {
               </div>
               <h1 className="heading-about">Our Commitment to Advancing Healthcare</h1>
               <p className="home-para"> " we are dedicated to advancing healthcare by leveraging our deep expertise in pharmaceuticals. With a mission to improve lives, we focus on developing high-quality and innovative healthcare solutions. Our team of experts works tirelessly to ensure the safety, efficacy, and accessibility of our products. Driven by compassion and backed by science, we are committed to being a trusted partner in health for communities worldwide."</p>
-
+              <button style={{ width: "200px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", gap: "15px", border: "none", borderRadius: "50px", color: "blueviolet" }}>
+                <span> Discover more</span>
+                <FaLongArrowAltRight />
+              </button>
             </div>
-            <div className="wow fadeIn abouts" data-wow-delay="0.1s" data-aos="fade-right">
+            <div className="wow fadeIn abouts" data-wow-delay="0.1s" data-aos="zoom-in">
 
               <img className="img-fluid" height={"344px"} width={"612px"} src="https://cdn.pixabay.com/photo/2018/01/18/09/26/hospital-3089884_640.jpg" />
 
@@ -121,13 +133,14 @@ function Home() {
 
 
 
+
       {/* <div className="container-fluid bg-light mt-5 py-5 ">
         <div className="container py-5">
           <div className="row g-5 align-items-center">
             <div
               className="col-lg-5 wow fadeIn"
               data-wow-delay="0.1s"
-              data-aos="fade-right"
+              data-aos="zoom-in"
             >
               <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">
                 Our Services
@@ -148,7 +161,7 @@ function Home() {
                 Read More
               </a>
             </div>
-            <div className="col-lg-7" data-aos="fade-left">
+            <div className="col-lg-7" data-aos="zoom-in">
               <div className="row g-4">
                 <div className="col-md-6">
                   <div className="row g-4">
@@ -254,7 +267,7 @@ function Home() {
         <div className="container pt-5">
           <div className="row g-5">
             <div
-              data-aos="fade-right"
+              data-aos="zoom-in"
               className="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn"
               data-wow-delay="0.3s"
             >
@@ -328,7 +341,7 @@ function Home() {
               </div>
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="zoom-in"
               className="col-lg-6 align-self-end text-center text-md-end wow fadeIn"
               data-wow-delay="0.5s"
             >
@@ -351,7 +364,7 @@ function Home() {
             <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">
               Services
             </div>
-            <h1 className="mb-4" data-aos="fade-right">
+            <h1 className="mb-4" data-aos="zoom-in">
               Our Top Services
             </h1>
           </div>

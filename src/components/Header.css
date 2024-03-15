@@ -1,3 +1,5 @@
+
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -56,4 +58,284 @@
 
 .a-index{
   z-index: 1000;
+}
+
+.nav_ul li {
+  padding: 0 0.6rem;
+}
+
+.nav_ul a {
+  font-size: 1.05rem;
+  color: #000 !important;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.5rem 1.8rem;
+  color: #fff;
+  background-color: #01193c;
+}
+
+#flexbox-logo {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  background-color: white;
+}
+
+.logoimg img {
+  height: 100px;
+  padding: 15px;
+}
+
+.navbar-brand {
+  /* height: 80px; */
+}
+
+#responsive-headerdrop {
+  position: absolute;
+  right: 0;
+  margin-top: 80px;
+  z-index: 1000;
+  background: linear-gradient( rgb(169, 163, 163),rgb(111, 112, 111));
+  border-radius: 10px;
+  width: 250px;
+  color: #000;
+}
+
+#responsive-headerdrop .responsive-item:hover {
+  background-color: #20314a;
+  border-radius: 5px;
+  color: white;
+  padding: 5 px;
+}
+
+.header-item-flex {
+  display: grid;
+}
+
+.toggle-design{
+  background-image: linear-gradient(to right, #eea2a3, #899cb5) !important;
+  color: white !important;
+}
+
+.header-alfa{
+  background: linear-gradient(to bottom, rgb(119, 118, 118), #a3a3a2);;
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
+  background-color: #151418;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.logo img {
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.logo a span {
+  color: #8739fa;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  display: block;
+  padding: 7px 15px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.2s all ease-in-out;
+  color: #fff;
+}
+
+.menu:hover a {
+  opacity: 0.4;
+}
+
+.menu a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu {
+  transform: scale(1, 1);
+}
+
+@media only screen and (max-width: 950px) {
+  .menu {
+    flex-direction: column;
+    background-color: #151418;
+    align-items: start;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .menu a {
+    margin-left: 12px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
+} */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
+  background-color: #151418;
+  z-index: 9999;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.logo img{
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo a span {
+  color: #8739fa;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  display: block;
+  padding: 7px 15px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.2s all ease-in-out;
+  color: #fff;
+}
+
+.menu:hover a {
+  opacity: 0.4;
+}
+
+.menu a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu {
+  transform: scale(1, 1);
+}
+
+@media only screen and (max-width: 950px) {
+  .menu {
+    flex-direction: column;
+    background-color: #151418;
+    align-items: start;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .menu a {
+    margin-left: 12px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
 }
