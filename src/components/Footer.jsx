@@ -40,7 +40,7 @@ function Footer() {
         </div>
         <div className="footer-section  pt-5">
           <div className="footer-responsive row g-5">
-            <div className="col-md-6 wow fadeIn " data-wow-delay="0.1s">
+            <div className="col-md-4 wow fadeIn " data-wow-delay="0.1s">
               <a href="index.html" className="d-inline-block mb-3">
                 <h1 className="text-white">
                   AlphaLife <span className="text-primary"></span>Pharmaceuticals
@@ -49,23 +49,10 @@ function Footer() {
               <p className="mb-0 style={{ fontSize: '14px' }}>">
                 "AlphaLife Pharmaceuticals offers cutting-edge treatments, backed by rigorous research and quality assurance, ensuring optimal patient care and outcomes."
               </p>
-              <div className="d-flex pt-4">
-                <a className="btn btn-outline-light btn-social" href="">
-                  <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <FontAwesomeIcon icon={faLinkedinIn} />
-                </a>
-              </div>
+             
             </div>
 
-            <div className="col-md-6 wow fadeIn align-center" data-wow-delay="0.5s">
+            <div className="col-md-4 wow fadeIn align-center" data-wow-delay="0.5s">
               <h5 className="text-white mb-4">Popular Link</h5>
 
               <Link onClick={() => handleClick('/about')} className="btn btn-link" to="/about">
@@ -85,6 +72,26 @@ function Footer() {
                 <FontAwesomeIcon icon={faAngleRight} />
                 R&d
               </Link>
+            </div>
+            <div className="col-md-4">
+            <h5 className="text-white mb-4">Follow More</h5>
+            <div className="d-flex py-4">
+                <a className="btn btn-outline-light btn-social" href="">
+                  <FontAwesomeIcon icon={faFacebookF} />
+                </a>
+                <a className="btn btn-outline-light btn-social" href="">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <a className="btn btn-outline-light btn-social" href="">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a className="btn btn-outline-light btn-social" href="">
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </a>
+              </div>
+              <div className="py-2">Address : Ministers PMB,66 Gamel Abdul Naseer Ave, Accra, Ghana</div>
+              <a href=" " className="pb-2">info@AlphalifePharmaceuticals.in</a>
+
             </div>
           </div>
         </div>
